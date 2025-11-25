@@ -1,0 +1,11 @@
+1) Can we Overload the main() method in Java?
+Ans : YES, We can Overload main() method in Java.
+        • A Java Class can have "any number of main() methods". But
+        • "To run the Java Class, the class should have a main() method with the signature of "public static void main(String[] args)"
+
+    • Refer src/main/java/AboutMainClass1.java for related code snippet.
+
+    • error if main method signature is missed:
+        Error: Main method not found in class main.java.com.AboutMainClass1, please define the main method as:
+                public static void main(String[] args)
+            or a JavaFX application class must extend javafx.application.Application

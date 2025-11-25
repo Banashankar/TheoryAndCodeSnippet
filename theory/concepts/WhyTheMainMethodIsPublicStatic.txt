@@ -1,0 +1,17 @@
+1) Why the main() method is public static?
+Ans : Main() method is static in java because:
+        • JVM can directly call/invoke it without instantiating (i.e., creating object) the class object.
+        • To avoid unnecessary boiler plate code(i.e., code for creating object).
+
+2) If, Can main() method be a non static?
+Ans : if main() method is non static, then JVM:
+        • Needs to create an instance of the class.
+        • There would be "ambiguity" if the constructor of that class takes an argument -
+            • Which constructor should be called by JVM and what parameters should be passed?
+            • Know that JVM can't instantiate a Java class without calling a constructor method.
+            --- Following Code Example shows why main() method is static in java: is in main/java/com/AboutMainClass.java class --
+
+1.1) Why main() method is public?
+Ans : We know that anyone can access/invoke a method having "public" access specifier.
+        • Main() method "is public" becuase it needs be invoked by JVM.
+        • If main() method "is not public" then JVM won't call it.

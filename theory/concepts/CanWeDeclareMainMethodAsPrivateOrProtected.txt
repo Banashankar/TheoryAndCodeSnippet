@@ -1,0 +1,8 @@
+1) Can we declare main() method as Private or Protected or with no Access Modifiers?
+Ans : NO, The main() method must be public.
+        • Cannot define main() method as Private or Protected or With No Access Modifiers.
+        • Need to define public - To make main() method to accessible to JVM.
+
+    • Refer src/main/java/com/AboutMainClass2 for code snippet
+
+    • Error if declared as private to main() method:
